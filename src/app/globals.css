@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fafafa;
+  --foreground: #0a0a0a;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Print: hide nav and footer, clean resume layout */
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: #111 !important;
+  }
+  main {
+    padding: 0 !important;
+  }
+  .resume-content {
+    max-width: 100%;
+    padding: 0 !important;
+  }
+  .resume-content * {
+    color: #111 !important;
+  }
+  a {
+    text-decoration: none;
+    color: inherit !important;
+  }
+}
