@@ -37,7 +37,7 @@ export default function AboutPage() {
             About
           </h1>
           <p className="mt-6 text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-3xl">
-            I&apos;m a creative and analytical product leader with a track record of leading zero-to-one and scale-up products in FinTech. I specialize in turning ambitious product strategy into seamless, revenue-driving outcomes.
+            I&apos;m a creative and analytical product leader with a track record of leading zero-to-one and scale-up products in FinTech. I build AI-powered products and experiences at the intersection of payments, embedded financing, and credit risk.
           </p>
         </section>
 

@@ -7,8 +7,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Director of Product | Portfolio",
-  description: "Professional portfolio — Product leadership, strategy, and execution.",
+  title: "Varun Sridhar — Product Leader",
+  description: "Fintech PM building AI-powered products at the intersection of payments, embedded financing and credit risk.",
 };
 
 export default function RootLayout({
