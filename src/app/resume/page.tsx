@@ -67,7 +67,7 @@ export default function ResumePage() {
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Product Leadership:</strong> Employee #3, owning the end-to-end product strategy and execution for an AI-powered financing and payments platform.</li>
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Embedded Financing:</strong> Deployed a financing platform with a proprietary automated underwriting engine that has facilitated 9-figure loan originations since its early 2023 launch.</li>
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Revenue Automation:</strong> Delivered a mid-2024 expansion into full-scale revenue and payments automation, enabling tech vendors to advance revenue by offering flexible payment options to their customers.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Platform &amp; Growth:</strong> Unified various financial workflows—payables, receivables, integrations with CRM and accounting—into a unified platform, driving multi-X topline growth and nearing 8-figures in ARR.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">Platform &amp; Growth:</strong> Unified various financial workflows—AP, AR, CRM and ERP syncs—into an integrated platform, driving multi-X topline growth and nearing 8-figures in ARR.</li>
               </ul>
             </li>
             <li>
@@ -88,7 +88,7 @@ export default function ResumePage() {
                 </span>
               </div>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
-                <li>Led product development for Tailored Lending platform, driving 31% CAGR with over $100M in yearly revenue.</li>
+                <li>Led product development for Tailored Lending platform, driving 26% CAGR and supporting high 9-figures in yearly revenue.</li>
                 <li>Delivered Fed-mandated Alternative Reference Rates across the multi-billion dollar loan book by leading a cross-functional and multi-platform/team initiative.</li>
               </ul>
             </li>

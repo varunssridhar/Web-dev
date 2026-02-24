@@ -9,7 +9,7 @@ export default function ProjectsPage() {
           Projects
         </h1>
         <p className="mt-3 text-neutral-600 dark:text-neutral-400 max-w-md">
-          Case studies and project highlights will go here. Coming soon.
+          Hobby projects and case studies will go here. Coming soon... 🤓
         </p>
       </div>
     </div>
