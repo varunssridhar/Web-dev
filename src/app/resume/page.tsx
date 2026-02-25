@@ -1,4 +1,4 @@
-import { Linkedin, Mail, FileDown } from "lucide-react";
+import { Linkedin, Mail, FileDown, Globe } from "lucide-react";
 
 export default function ResumePage() {
   return (
@@ -12,19 +12,28 @@ export default function ResumePage() {
             <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-0.5 print:text-xs">
               New York City, NY
             </p>
-            <div className="mt-2 flex items-center gap-3 no-print">
+            <div className="mt-2 flex items-center gap-3 flex-wrap">
+              <a
+                href="https://varunsridhar.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
+                aria-label="Website"
+              >
+                <Globe className="h-4 w-4" />
+              </a>
               <a
                 href="https://www.linkedin.com/in/varunsridhar/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors"
+                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-4 w-4" />
               </a>
               <a
                 href="mailto:varunssridhar@gmail.com"
-                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors"
+                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
                 aria-label="Email"
               >
                 <Mail className="h-4 w-4" />
