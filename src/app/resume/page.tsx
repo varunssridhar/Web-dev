@@ -82,10 +82,10 @@ export default function ResumePage() {
             <li>
               <div className="flex flex-wrap justify-between gap-2">
                 <span className="font-bold text-neutral-900 dark:text-white print:text-black print:text-xs">
-                  Vice President and Lead PM, Global Banking Technology
+                  Vice President and Lead PM, Banking Tech
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  January 2021 – March 2022
+                  2021 – 2022
                 </span>
               </div>
               <div className="flex flex-wrap justify-between gap-2 mt-0.5">
@@ -104,10 +104,10 @@ export default function ResumePage() {
             <li>
               <div className="flex flex-wrap justify-between gap-2">
                 <span className="font-bold text-neutral-900 dark:text-white print:text-black print:text-xs">
-                  Product Manager, Global Banking Technology
+                  Product Manager, Banking Tech
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  August 2015 – December 2020
+                  2015 – 2020
                 </span>
               </div>
               <div className="flex flex-wrap justify-between gap-2 mt-0.5">
@@ -127,10 +127,10 @@ export default function ResumePage() {
             <li>
               <div className="flex flex-wrap justify-between gap-2">
                 <span className="font-bold text-neutral-900 dark:text-white print:text-black print:text-xs">
-                  Technology and Data Summer Intern, Business Analyst
+                  Tech and Data Business Analyst, Intern
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  June 2014 – August 2014
+                  Summer 2014
                 </span>
               </div>
               <div className="flex flex-wrap justify-between gap-2 mt-0.5">
@@ -175,7 +175,7 @@ export default function ResumePage() {
                   University of Pennsylvania
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  August 2013 – May 2015
+                  2013 – 2015
                 </span>
               </div>
               <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-400 print:text-slate-700 text-sm print:text-xs">
@@ -188,7 +188,7 @@ export default function ResumePage() {
                   The Wharton School, University of Pennsylvania
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  September 2014 – January 2015
+                  Fall 2014
                 </span>
               </div>
               <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-400 print:text-slate-700 text-sm print:text-xs">
@@ -204,7 +204,7 @@ export default function ResumePage() {
                   Netaji Subhas Institute of Technology, University of Delhi
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  August 2009 – June 2013
+                  2009 – 2013
                 </span>
               </div>
               <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-400 print:text-slate-700 text-sm print:text-xs">
@@ -217,7 +217,7 @@ export default function ResumePage() {
                   Carnegie Mellon University
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  June 2012 – August 2012
+                  Summer 2012
                 </span>
               </div>
               <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-400 print:text-slate-700 text-sm print:text-xs">
