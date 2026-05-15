@@ -74,7 +74,7 @@ export default function ResumePage() {
               </div>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Strategy &amp; Execution:</strong> Joined as employee #3 to lead the end-to-end product lifecycle for an AI-powered financing and payments platform. Scaled the product from initial launch to nearing 8-figures in revenue.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Embedded Financing:</strong> Deployed a financing platform in early 2023, underpinned by a proprietary underwriting engine, that has facilitated 9-figure loan originations utilizing AI to streamline credit decisioning.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">Embedded Financing:</strong> Deployed the financing suite in early 2023, underpinned by a proprietary underwriting engine, that has facilitated 9-figure originations while utilizing AI to streamline credit decisioning.</li>
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Product Expansion:</strong> Led the mid-2024 launch of a revenue automation suite, enabling tech vendors to offer flexible payment options to their customers.</li>
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Platform &amp; Growth:</strong> Unified AR workflows into a single platform, leveraging deep ERP and CRM integrations to streamline the quote-to-cash process, driving multi-X topline growth.</li>
               </ul>
