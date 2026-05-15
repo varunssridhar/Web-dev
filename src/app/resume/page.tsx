@@ -58,7 +58,7 @@ export default function ResumePage() {
             <li>
               <div className="flex flex-wrap justify-between gap-2 print:gap-1">
                 <span className="font-bold text-neutral-900 dark:text-white print:text-black print:text-xs">
-                  Head of Product
+                  VP of Product
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs print:text-xs">
                   March 2022 – Present
@@ -73,10 +73,10 @@ export default function ResumePage() {
                 </span>
               </div>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Product Leadership:</strong> Employee #3, owning the end-to-end product strategy and execution for an AI-powered financing and payments platform.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Embedded Financing:</strong> Deployed a financing platform with a proprietary automated underwriting engine that has facilitated 9-figure loan originations since its early 2023 launch.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Revenue Automation:</strong> Delivered a mid-2024 expansion into full-scale revenue and payments automation, enabling tech vendors to advance revenue by offering flexible payment options to their customers.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Platform &amp; Growth:</strong> Unified various financial workflows—AP, AR, CRM and ERP syncs—into an integrated platform, driving multi-X topline growth and nearing 8-figures in ARR.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">Strategy &amp; Execution:</strong> Joined as employee #3 to lead the end-to-end product lifecycle for an AI-powered financing and payments platform. Scaled the product from initial launch to nearing 8-figures in revenue.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">Embedded Financing:</strong> Deployed a financing platform in early 2023, underpinned by a proprietary underwriting engine, that has facilitated 9-figure loan originations utilizing AI to streamline credit decisioning.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">Product Expansion:</strong> Led the mid-2024 launch of a revenue automation suite, enabling tech vendors to offer flexible payment options to their customers.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">Platform &amp; Growth:</strong>Unified AR workflows into a single platform, leveraging deep ERP and CRM integrations to streamline the quote-to-cash process, driving multi-X topline growth.</li>
               </ul>
             </li>
             <li>
@@ -97,8 +97,8 @@ export default function ResumePage() {
                 </span>
               </div>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
-                <li>Led product development for Tailored Lending platform, driving 26% CAGR and supporting high 9-figures in yearly revenue.</li>
-                <li>Delivered Fed-mandated Alternative Reference Rates across the multi-billion dollar loan book by leading a cross-functional and multi-platform/team initiative.</li>
+                <li>Scaled the Tailored Lending platform to support high 9-figure annual revenue, driving a 26% CAGR by optimizing credit workflows and digital borrower experiences.</li>
+                <li>Led a multi-platform global initiative to transition the multi-billion dollar loan book to Fed-mandated Alternative Reference Rates (SOFR), ensuring regulatory compliance and mitigating systemic risk.</li>
               </ul>
             </li>
             <li>
