@@ -12,9 +12,9 @@ const philosophy = [
     description: "Shifting the needle on North Star metrics, not just clearing a backlog.",
   },
   {
-    icon: Layers,
-    title: "Architecture for Scale",
-    description: "Building high-quality, predictable systems that can handle institutional-grade volume.",
+    icon: Heart,
+    title: "Solving Real Needs",
+    description: "Reducing friction by validating user pain points through rapid prototyping and direct feedback.",
   },
   {
     icon: BarChart3,
@@ -22,9 +22,9 @@ const philosophy = [
     description: "Using signals to validate hypotheses while maintaining a strong product vision for the 'why.'",
   },
   {
-    icon: Heart,
-    title: "Solving Real Needs",
-    description: "Reducing friction by obsessively validating user pain points through rapid prototyping and direct feedback.",
+    icon: Layers,
+    title: "Architecture for Scale",
+    description: "Building high-quality, predictable systems that can handle volume.",
   },
 ];
 
@@ -34,10 +34,10 @@ export default function AboutPage() {
       <div className="space-y-20">
         <section>
           <h1 className="text-3xl font-semibold tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            About
+            Building and tinkering 🛠️
           </h1>
           <p className="mt-6 text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-3xl">
-            I&apos;m a Fintech product leader who enjoys the messiness of building zero-to-one and the challenge of scaling up. Currently, I&apos;m spending my time building AI-powered products and experiences at the intersection of payments, embedded financing, and credit risk.
+            I enjoy the messiness of building zero-to-one and the challenge of scaling up. Before jumping into the startup space to run product at Gynger, I focused on scaling banking technology at Morgan Stanley.
           </p>
         </section>
 
