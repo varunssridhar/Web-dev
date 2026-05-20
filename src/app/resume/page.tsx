@@ -154,12 +154,16 @@ export default function ResumePage() {
           </h2>
           <div className="mt-3 space-y-2 print:mt-2 print:space-y-1">
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
-              <span className="font-bold text-neutral-900 dark:text-white print:text-black">Product Leadership:</span>{" "}
-              Strategy, Roadmap planning, Stakeholder management, Product launches, Branding
+              <span className="font-bold text-neutral-900 dark:text-white print:text-black">AI Product:</span>{" "}
+              LLM prompting &amp; Eval design, Agent workflow architecture, LangSmith, Claude Code, Rapid prototyping
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
               <span className="font-bold text-neutral-900 dark:text-white print:text-black">Technical Skills:</span>{" "}
-              Python, SQL, GraphQL, API tools, Figma, Retool, JIRA, Prompt engineering, AI tooling
+              Python, SQL, GraphQL, API tools, Figma, Retool, JIRA
+            </p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
+              <span className="font-bold text-neutral-900 dark:text-white print:text-black">Product Leadership:</span>{" "}
+              Strategy &amp; Roadmapping, Zero-to-one launch, Team management, Stakeholder alignment, Risk &amp; Compliance
             </p>
           </div>
         </section>
