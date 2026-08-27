@@ -77,12 +77,13 @@ export default function ResumePage() {
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Embedded Financing:</strong> Deployed the financing suite in early 2023, underpinned by a proprietary underwriting engine, that has facilitated 9-figure originations by leveraging AI to streamline decisioning.</li>
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Product Expansion:</strong> Led the mid-2024 launch of a revenue automation suite, enabling tech vendors to offer flexible payment options to their customers.</li>
                 <li><strong className="text-neutral-900 dark:text-white print:text-black">Platform &amp; Growth:</strong> Unified AR workflows into a single platform, leveraging deep ERP and CRM integrations to streamline the quote-to-cash process, driving multi-X topline growth.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">AI Agents:</strong> Architected Gynger&apos;s first agents, turning offer creation, underwriting, and collections into autonomous workflows — specced and eval-designed end-to-end, now in pilot.</li>
               </ul>
             </li>
             <li>
               <div className="flex flex-wrap justify-between gap-2">
                 <span className="font-bold text-neutral-900 dark:text-white print:text-black print:text-xs">
-                  Vice President and Lead PM, Banking Tech
+                  Vice President and Lead PM
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
                   2021 – 2022
@@ -104,7 +105,7 @@ export default function ResumePage() {
             <li>
               <div className="flex flex-wrap justify-between gap-2">
                 <span className="font-bold text-neutral-900 dark:text-white print:text-black print:text-xs">
-                  Product Manager, Banking Tech
+                  Product Manager
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
                   2015 – 2020
@@ -154,16 +155,16 @@ export default function ResumePage() {
           </h2>
           <div className="mt-3 space-y-2 print:mt-2 print:space-y-1">
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
-              <span className="font-bold text-neutral-900 dark:text-white print:text-black">AI Product:</span>{" "}
-              LLM prompting &amp; Eval design, Agent workflow architecture, LangSmith, Claude Code, Rapid prototyping
+              <span className="font-bold text-neutral-900 dark:text-white print:text-black">AI:</span>{" "}
+              LLM prompting &amp; Eval design, Agent workflow architecture, LangSmith, Claude Code &amp; Cowork, Rapid prototyping
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
-              <span className="font-bold text-neutral-900 dark:text-white print:text-black">Technical Skills:</span>{" "}
-              Python, SQL, GraphQL, API tools, Figma, Retool, JIRA
+              <span className="font-bold text-neutral-900 dark:text-white print:text-black">Technical:</span>{" "}
+              Python, SQL, Figma, GraphQL, API tools, Retool, JIRA
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
-              <span className="font-bold text-neutral-900 dark:text-white print:text-black">Product Leadership:</span>{" "}
-              Strategy &amp; Roadmapping, Zero-to-one launch, Team management, Stakeholder alignment, Risk &amp; Compliance
+              <span className="font-bold text-neutral-900 dark:text-white print:text-black">Leadership:</span>{" "}
+              Strategy &amp; Roadmapping, 0&gt;1 launch, Team management, Stakeholder alignment
             </p>
           </div>
         </section>
