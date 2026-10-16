@@ -10,33 +10,33 @@ export default function ResumePage() {
               Varun Sridhar
             </h1>
             <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-0.5 print:text-xs">
-              New York City, NY
+              New York, NY
             </p>
-            <div className="mt-2 flex items-center gap-3 flex-wrap">
+            <div className="mt-2 flex items-center gap-x-4 gap-y-1 flex-wrap text-sm print:text-xs print:mt-1">
               <a
-                href="https://varunsridhar.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
-                aria-label="Website"
+                href="mailto:varunssridhar@gmail.com"
+                className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
               >
-                <Globe className="h-4 w-4" />
+                <Mail className="h-4 w-4" aria-hidden="true" />
+                varunssridhar@gmail.com
               </a>
               <a
                 href="https://www.linkedin.com/in/varunsridhar/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
-                aria-label="LinkedIn"
+                className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
               >
-                <Linkedin className="h-4 w-4" />
+                <Linkedin className="h-4 w-4" aria-hidden="true" />
+                linkedin.com/in/varunsridhar
               </a>
               <a
-                href="mailto:varunssridhar@gmail.com"
-                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
-                aria-label="Email"
+                href="https://varunsridhar.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
               >
-                <Mail className="h-4 w-4" />
+                <Globe className="h-4 w-4" aria-hidden="true" />
+                varunsridhar.com
               </a>
             </div>
           </div>
@@ -50,6 +50,10 @@ export default function ResumePage() {
           </a>
         </div>
 
+        <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-2 print:text-xs print:leading-snug">
+          Product leader with 10+ years building lending, credit and payments products, from zero-to-one at a startup to scale at a global bank. Hands-on builder of production AI agents and the financial workflows around them.
+        </p>
+
         <section className="mt-6 print:mt-3">
           <h2 className="text-lg font-semibold text-neutral-900 dark:text-white print:text-black border-b border-neutral-200 dark:border-neutral-700 print:border-neutral-300 pb-1 print:text-base">
             Experience
@@ -61,7 +65,7 @@ export default function ResumePage() {
                   VP of Product
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs print:text-xs">
-                  March 2022 – Present
+                  2022 – Present
                 </span>
               </div>
               <div className="flex flex-wrap justify-between gap-2 mt-0.5 print:mt-0">
@@ -69,15 +73,14 @@ export default function ResumePage() {
                   Gynger Inc.
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs print:text-xs">
-                  New York City, NY
+                  New York, NY
                 </span>
               </div>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Strategy &amp; Execution:</strong> Joined as employee #3 to lead the end-to-end product lifecycle for an AI-powered financing and payments platform. Scaled the product from initial launch to nearing 8-figures in revenue.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Embedded Financing:</strong> Deployed the financing suite in early 2023, underpinned by a proprietary underwriting engine, that has facilitated 9-figure originations by leveraging AI to streamline decisioning.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Product Expansion:</strong> Led the mid-2024 launch of a revenue automation suite, enabling tech vendors to offer flexible payment options to their customers.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">Platform &amp; Growth:</strong> Unified AR workflows into a single platform, leveraging deep ERP and CRM integrations to streamline the quote-to-cash process, driving multi-X topline growth.</li>
-                <li><strong className="text-neutral-900 dark:text-white print:text-black">AI Agents:</strong> Architected Gynger&apos;s first agents, turning offer creation, underwriting, and collections into autonomous workflows — specced and eval-designed end-to-end, now in pilot.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">0→1 &amp; Scale:</strong> Joined as employee #3 to lead the end-to-end product lifecycle for an AI-powered financing and payments platform, scaling it from initial launch to nearing 8-figures in revenue. Lead a team of 3.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">AI Agents:</strong> Architected Gynger&apos;s first AI agents, turning offer creation, underwriting and collections into multi-step autonomous workflows. Designed a defined routing hierarchy with human escalation for exceptions, and let vendors set underwriting policy in natural language. Wrote the specs and eval framework end to end; went from prototype to GA in 3 months.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">Financing Suite:</strong> Launched embedded financing in early 2023, built on an advanced underwriting model composed of many sub-policies; has facilitated $200M+ in originations.</li>
+                <li><strong className="text-neutral-900 dark:text-white print:text-black">Revenue Automation:</strong> Led the mid-2024 launch of a suite that unifies AR workflows through deep ERP and CRM integrations across quote-to-cash, and lets tech vendors offer flexible payment options to their customers.</li>
               </ul>
             </li>
             <li>
@@ -94,7 +97,7 @@ export default function ResumePage() {
                   Morgan Stanley
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  New York City, NY
+                  New York, NY
                 </span>
               </div>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
@@ -116,13 +119,14 @@ export default function ResumePage() {
                   Morgan Stanley
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  New York City, NY ; Montreal, QC
+                  New York, NY / Montreal, QC
                 </span>
               </div>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
-                <li>Increased revenue $5M+ annually by launching a multi-collateral loan product.</li>
-                <li>Delivered a reduction of 60% in loan booking time via servicing workflow automation and API integrations.</li>
-                <li>Drove 40% YoY loan volume growth by deploying new loan origination system.</li>
+                <li>Owned the end-to-end lifecycle of loan origination and servicing, managing initiatives across distributed teams in the US, India and Canada and a range of stakeholders.</li>
+                <li>Launched a multi-collateral loan product, growing revenue $5M+ annually.</li>
+                <li>Deployed a new loan origination system, driving 40% YoY loan volume growth.</li>
+                <li>Automated servicing workflows and integrated APIs, cutting loan booking time 60%.</li>
               </ul>
             </li>
             <li>
@@ -139,12 +143,9 @@ export default function ResumePage() {
                   Morgan Stanley
                 </span>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  New York City, NY
+                  New York, NY
                 </span>
               </div>
-              <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
-                <li>Wrote a PRD for a Wealth Management application that was to be used by 16000+ Financial Advisors.</li>
-              </ul>
             </li>
           </ul>
         </section>
@@ -155,16 +156,16 @@ export default function ResumePage() {
           </h2>
           <div className="mt-3 space-y-2 print:mt-2 print:space-y-1">
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
-              <span className="font-bold text-neutral-900 dark:text-white print:text-black">AI:</span>{" "}
-              LLM prompting &amp; Eval design, Agent workflow architecture, LangSmith, Claude Code &amp; Cowork, Rapid prototyping
+              <span className="font-bold text-neutral-900 dark:text-white print:text-black">AI Product:</span>{" "}
+              LLM evals &amp; prompt design, agent workflow architecture, human-in-the-loop &amp; guardrail design, LangSmith, Claude Code &amp; Cowork, rapid prototyping
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
               <span className="font-bold text-neutral-900 dark:text-white print:text-black">Technical:</span>{" "}
-              Python, SQL, Figma, GraphQL, API tools, Retool, JIRA
+              Python, SQL, GraphQL, APIs, Retool
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
               <span className="font-bold text-neutral-900 dark:text-white print:text-black">Leadership:</span>{" "}
-              Strategy &amp; Roadmapping, 0&gt;1 launch, Team management, Stakeholder alignment
+              Strategy &amp; roadmapping, 0→1 launch, team management, stakeholder alignment
             </p>
           </div>
         </section>
@@ -184,23 +185,10 @@ export default function ResumePage() {
                 </span>
               </div>
               <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-400 print:text-slate-700 text-sm print:text-xs">
-                Masters in Systems Engineering, GPA: 3.94/4.0
-              </p>
-            </li>
-            <li>
-              <div className="flex flex-wrap justify-between gap-2">
-                <span className="font-bold text-neutral-900 dark:text-white print:text-black print:text-xs">
-                  The Wharton School, University of Pennsylvania
-                </span>
-                <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  Fall 2014
-                </span>
-              </div>
-              <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-400 print:text-slate-700 text-sm print:text-xs">
-                Research Assistant
+                M.S. in Systems Engineering, GPA: 3.94/4.0
               </p>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
-                <li>Built machine learning models to predict TV show viewership trends using scraped social network data.</li>
+                <li>Wharton research assistant: built machine learning models predicting TV viewership from social network data.</li>
               </ul>
             </li>
             <li>
@@ -215,21 +203,8 @@ export default function ResumePage() {
               <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-400 print:text-slate-700 text-sm print:text-xs">
                 B.E. in Electronics and Communication Engineering, First Division with Distinction
               </p>
-            </li>
-            <li>
-              <div className="flex flex-wrap justify-between gap-2">
-                <span className="font-bold text-neutral-900 dark:text-white print:text-black print:text-xs">
-                  Carnegie Mellon University
-                </span>
-                <span className="text-sm text-neutral-500 dark:text-neutral-400 print:text-neutral-600 print:text-xs">
-                  Summer 2012
-                </span>
-              </div>
-              <p className="mt-0.5 font-semibold text-slate-700 dark:text-slate-400 print:text-slate-700 text-sm print:text-xs">
-                Summer Research Intern, Electrical and Computer Engineering
-              </p>
               <ul className="mt-1.5 list-disc pl-5 space-y-0.5 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-1 print:space-y-0 print:text-xs print:leading-snug">
-                <li>Developed a feature extraction algorithm achieving 96% classification accuracy on low-resolution images.</li>
+                <li>Summer research intern at <strong className="text-neutral-900 dark:text-white print:text-black">Carnegie Mellon University</strong> (2012): developed a feature extraction algorithm with 96% classification accuracy on low-resolution images.</li>
               </ul>
             </li>
           </ul>
