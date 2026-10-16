@@ -12,41 +12,42 @@ export default function ResumePage() {
             <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:mt-0.5 print:text-xs">
               New York, NY
             </p>
-            <div className="mt-2 flex items-center gap-x-4 gap-y-1 flex-wrap text-sm print:text-xs print:mt-1">
-              <a
-                href="mailto:varunssridhar@gmail.com"
-                className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
-              >
-                <Mail className="h-4 w-4" aria-hidden="true" />
-                varunssridhar@gmail.com
-              </a>
-              <a
-                href="https://www.linkedin.com/in/varunsridhar/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
-              >
-                <Linkedin className="h-4 w-4" aria-hidden="true" />
-                linkedin.com/in/varunsridhar
-              </a>
-              <a
-                href="https://varunsridhar.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
-              >
-                <Globe className="h-4 w-4" aria-hidden="true" />
-                varunsridhar.com
-              </a>
-            </div>
           </div>
           <a
             href="/resume.pdf"
             download
-            className="no-print inline-flex items-center gap-2 rounded-lg border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 px-4 py-2 text-sm font-medium text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors"
+            className="no-print inline-flex shrink-0 items-center gap-2 whitespace-nowrap rounded-lg border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 px-4 py-2 text-sm font-medium text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors"
           >
             <FileDown className="h-4 w-4" />
             Download PDF
+          </a>
+        </div>
+
+        <div className="mt-2 flex items-center gap-x-4 gap-y-1 flex-wrap text-sm print:text-xs print:mt-1">
+          <a
+            href="mailto:varunssridhar@gmail.com"
+            className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
+          >
+            <Mail className="h-4 w-4" aria-hidden="true" />
+            varunssridhar@gmail.com
+          </a>
+          <a
+            href="https://www.linkedin.com/in/varunsridhar/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
+          >
+            <Linkedin className="h-4 w-4" aria-hidden="true" />
+            linkedin.com/in/varunsridhar
+          </a>
+          <a
+            href="https://varunsridhar.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors print:text-neutral-700"
+          >
+            <Globe className="h-4 w-4" aria-hidden="true" />
+            varunsridhar.com
           </a>
         </div>
 
@@ -157,15 +158,15 @@ export default function ResumePage() {
           <div className="mt-3 space-y-2 print:mt-2 print:space-y-1">
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
               <span className="font-bold text-neutral-900 dark:text-white print:text-black">AI Product:</span>{" "}
-              LLM evals &amp; prompt design, agent workflow architecture, human-in-the-loop &amp; guardrail design, LangSmith, Claude Code &amp; Cowork, rapid prototyping
+              LLM evals &amp; prompt design, agent workflow architecture, LangSmith, Claude Code &amp; Cowork, rapid prototyping
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
               <span className="font-bold text-neutral-900 dark:text-white print:text-black">Technical:</span>{" "}
-              Python, SQL, GraphQL, APIs, Retool
+              Python, SQL, Figma, GraphQL, API tools, Retool, JIRA
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 print:text-neutral-700 print:text-xs">
               <span className="font-bold text-neutral-900 dark:text-white print:text-black">Leadership:</span>{" "}
-              Strategy &amp; roadmapping, 0→1 launch, team management, stakeholder alignment
+              Strategy &amp; roadmapping, 0→1 launch, team management, stakeholder alignment, risk &amp; compliance
             </p>
           </div>
         </section>
