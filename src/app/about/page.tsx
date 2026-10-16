@@ -5,6 +5,9 @@ import {
   Heart,
 } from "lucide-react";
 
+// Product Philosophy section is hidden for now. Set to true to show it again.
+const SHOW_PHILOSOPHY = false;
+
 const philosophy = [
   {
     icon: Target,
@@ -37,34 +40,36 @@ export default function AboutPage() {
             Building and tinkering 🛠️
           </h1>
           <p className="mt-6 text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-3xl">
-            I enjoy the messiness of building zero-to-one and the challenge of scaling up. Before jumping into the startup space to run product at Gynger, I focused on scaling banking technology at Morgan Stanley.
+            I enjoy the messiness of building zero-to-one and the challenge of scaling up. Before jumping into the startup space to run product at Gynger, I focused on scaling banking technology at Morgan Stanley. Lately, I&apos;ve been building AI agents for financial workflows.
           </p>
         </section>
 
-        <section className="mt-12">
-          <h2 className="text-xl font-semibold text-neutral-900 dark:text-white mb-8">
-            Product Philosophy
-          </h2>
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {philosophy.map(({ icon: Icon, title, description }) => (
-              <div
-                key={title}
-                className="flex flex-col gap-3 p-0"
-              >
-                <Icon
-                  className="h-5 w-5 text-slate-500 dark:text-slate-400"
-                  strokeWidth={1}
-                />
-                <h3 className="font-medium text-neutral-900 dark:text-white">
-                  {title}
-                </h3>
-                <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  {description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
+        {SHOW_PHILOSOPHY && (
+          <section className="mt-12">
+            <h2 className="text-xl font-semibold text-neutral-900 dark:text-white mb-8">
+              Product Philosophy
+            </h2>
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+              {philosophy.map(({ icon: Icon, title, description }) => (
+                <div
+                  key={title}
+                  className="flex flex-col gap-3 p-0"
+                >
+                  <Icon
+                    className="h-5 w-5 text-slate-500 dark:text-slate-400"
+                    strokeWidth={1}
+                  />
+                  <h3 className="font-medium text-neutral-900 dark:text-white">
+                    {title}
+                  </h3>
+                  <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                    {description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section>
           <h2 className="text-xl font-semibold text-neutral-900 dark:text-white mb-6">
